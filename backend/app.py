@@ -13,6 +13,9 @@ from recommendation import get_recommendation
 
 app = Flask(__name__)
 CORS(app)
+@app.route("/")
+def home():
+    return "Backend is running"
 
 # ============================================
 # Load Models
@@ -31,10 +34,7 @@ rice_model = tf.keras.models.load_model(rice_model_path)
 print("Rice model loaded! ✅")
 
 # Load Corn Model
-corn_model_path = os.path.join(MODELS_DIR, 'corn_model.h5')
-print("Loading corn Model From:", corn_model_path)
-corn_model = tf.keras.models.load_model(corn_model_path)
-print("Corn model loaded! ✅")
+
 
 print("All models loaded! ✅")
 
@@ -117,7 +117,7 @@ def predict():
 @app.route('/crops', methods=['GET'])
 def get_crops():
     return jsonify({
-        "crops": ["rice", "corn"]
+        "crops": ["rice"]
     })
 
 # ============================================
