@@ -1,4 +1,4 @@
-# Smart-Agriculture-Advisory
+# Smart-Fertilizer-Advisory
 AI Based NPK Fertilizer Advisory System for Telangana Farmers
 # AI Based Balanced NPK Fertilizer Advisory System
 ### For Smallholder Farmers in Telangana
@@ -16,14 +16,12 @@ and reduced crop yield.
 This project is a free AI powered web application that 
 analyzes crop leaf images to detect nutrient deficiencies 
 and provides unbiased stage specific balanced NPK 
-fertilizer recommendations — without soil testing or 
-dealer dependency.
+fertilizer recommendations — without dealer dependency.
 
 ---
 
 ## Crops Supported
 - Rice
-- Corn / Maize
 
 ---
 
@@ -36,7 +34,7 @@ dealer dependency.
 ---
 
 ## How It Works
-1. Farmer selects crop type (Rice or Corn)
+1. Farmer selects crop type (Rice)
 2. Farmer enters days since sowing
 3. Farmer uploads a photo of crop leaf
 4. AI model detects nutrient deficiency
@@ -54,6 +52,6 @@ dealer dependency.
 ---
 
 ## Project Status
-🚧 Currently Under Development
+Completed — A fully functional AI-based fertilizer advisory system with working frontend, backend, and prediction model.
 
 ---
