@@ -1,0 +1,358 @@
+{
+  "rice": {
+    "nitrogen": [
+      {
+        "fertilizer": "Urea",
+        "dosage": "15 kg/acre",
+        "method": "Mix in soil before sowing",
+        "npk_tip": "Avoid excess Urea at germination stage"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "20 kg/acre",
+        "method": "Broadcast on wet soil",
+        "npk_tip": "Do not over apply Urea at seedling stage"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "45 kg/acre",
+        "method": "Broadcast on wet soil",
+        "npk_tip": "Do not exceed recommended Urea dose"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "35 kg/acre",
+        "method": "Broadcast before irrigation",
+        "npk_tip": "Reduce Nitrogen slightly at tillering"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "20 kg/acre",
+        "method": "Foliar spray",
+        "npk_tip": "Reduce Nitrogen at flowering stage"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "10 kg/acre",
+        "method": "Foliar spray only",
+        "npk_tip": "Minimize Nitrogen at grain filling"
+      },
+      {
+        "fertilizer": "None",
+        "dosage": "0 kg/acre",
+        "method": "Stop all fertilizer",
+        "npk_tip": "No fertilizer needed at maturity stage"
+      }
+    ],
+    "phosphorus": [
+      {
+        "fertilizer": "DAP",
+        "dosage": "20 kg/acre",
+        "method": "Basal application before sowing",
+        "npk_tip": "DAP is critical for root development"
+      },
+      {
+        "fertilizer": "SSP",
+        "dosage": "25 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Phosphorus needed for strong root growth"
+      },
+      {
+        "fertilizer": "DAP",
+        "dosage": "30 kg/acre",
+        "method": "Mix in soil before irrigation",
+        "npk_tip": "DAP supports leaf and stem development"
+      },
+      {
+        "fertilizer": "SSP",
+        "dosage": "25 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Phosphorus supports tiller formation"
+      },
+      {
+        "fertilizer": "DAP",
+        "dosage": "20 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Phosphorus critical for panicle formation"
+      },
+      {
+        "fertilizer": "SSP",
+        "dosage": "15 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Phosphorus supports grain development"
+      },
+      {
+        "fertilizer": "None",
+        "dosage": "0 kg/acre",
+        "method": "Stop all fertilizer",
+        "npk_tip": "Prepare for harvest"
+      }
+    ],
+    "potassium": [
+      {
+        "fertilizer": "MOP",
+        "dosage": "10 kg/acre",
+        "method": "Mix in soil before sowing",
+        "npk_tip": "Potassium builds crop immunity"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "15 kg/acre",
+        "method": "Broadcast and irrigate",
+        "npk_tip": "Potassium improves disease resistance"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "20 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Potassium strengthens stem and leaves"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "25 kg/acre",
+        "method": "Broadcast and irrigate",
+        "npk_tip": "Potassium critical for tiller strength"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "30 kg/acre",
+        "method": "Broadcast before irrigation",
+        "npk_tip": "Potassium is priority at flowering"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "25 kg/acre",
+        "method": "Broadcast before irrigation",
+        "npk_tip": "Potassium improves grain quality"
+      },
+      {
+        "fertilizer": "None",
+        "dosage": "0 kg/acre",
+        "method": "Stop all fertilizer",
+        "npk_tip": "Crop is ready for harvest"
+      }
+    ],
+    "healthy": [
+      {
+        "fertilizer": "NPK 17:17:17",
+        "dosage": "25 kg/acre",
+        "method": "Basal application before sowing",
+        "npk_tip": "Maintain balanced NPK ratio 4:2:1"
+      },
+      {
+        "fertilizer": "Urea + DAP",
+        "dosage": "20 + 15 kg/acre",
+        "method": "Broadcast on wet soil",
+        "npk_tip": "Balanced nutrition needed at seedling stage"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "30 kg/acre",
+        "method": "Broadcast on wet soil",
+        "npk_tip": "Nitrogen is priority at vegetative stage"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "20 kg/acre",
+        "method": "Broadcast and irrigate",
+        "npk_tip": "Focus on Potassium at tillering stage"
+      },
+      {
+        "fertilizer": "DAP + MOP",
+        "dosage": "15 + 20 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Focus on P and K at flowering stage"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "20 kg/acre",
+        "method": "Broadcast before irrigation",
+        "npk_tip": "Potassium is priority at grain filling"
+      },
+      {
+        "fertilizer": "None",
+        "dosage": "0 kg/acre",
+        "method": "Stop all fertilizer",
+        "npk_tip": "Prepare for harvest now"
+      }
+    ]
+  },
+  "corn": {
+    "nitrogen": [
+      {
+        "fertilizer": "Urea",
+        "dosage": "10 kg/acre",
+        "method": "Mix in soil before sowing",
+        "npk_tip": "Minimal Nitrogen needed at germination"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "20 kg/acre",
+        "method": "Side dressing near root zone",
+        "npk_tip": "Light Nitrogen needed at seedling stage"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "40 kg/acre",
+        "method": "Side dressing near root zone",
+        "npk_tip": "Do not exceed Urea dose for corn"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "30 kg/acre",
+        "method": "Side dressing near root zone",
+        "npk_tip": "Reduce Nitrogen at tasseling stage"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "15 kg/acre",
+        "method": "Foliar spray",
+        "npk_tip": "Minimal Nitrogen needed at silking"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "10 kg/acre",
+        "method": "Foliar spray only",
+        "npk_tip": "Minimize Nitrogen at grain filling"
+      },
+      {
+        "fertilizer": "None",
+        "dosage": "0 kg/acre",
+        "method": "Stop all fertilizer",
+        "npk_tip": "No fertilizer needed at maturity"
+      }
+    ],
+    "phosphorus": [
+      {
+        "fertilizer": "DAP",
+        "dosage": "25 kg/acre",
+        "method": "Basal application before sowing",
+        "npk_tip": "DAP critical for corn root development"
+      },
+      {
+        "fertilizer": "SSP",
+        "dosage": "30 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Phosphorus supports corn root growth"
+      },
+      {
+        "fertilizer": "DAP",
+        "dosage": "25 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Phosphorus supports corn leaf growth"
+      },
+      {
+        "fertilizer": "DAP",
+        "dosage": "20 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Phosphorus supports tassel formation"
+      },
+      {
+        "fertilizer": "DAP",
+        "dosage": "15 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Phosphorus supports silk formation"
+      },
+      {
+        "fertilizer": "SSP",
+        "dosage": "10 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Phosphorus supports corn grain development"
+      },
+      {
+        "fertilizer": "None",
+        "dosage": "0 kg/acre",
+        "method": "Stop all fertilizer",
+        "npk_tip": "Prepare for corn harvest"
+      }
+    ],
+    "potassium": [
+      {
+        "fertilizer": "MOP",
+        "dosage": "15 kg/acre",
+        "method": "Mix in soil before sowing",
+        "npk_tip": "Potassium builds strong corn seedling"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "15 kg/acre",
+        "method": "Broadcast and irrigate",
+        "npk_tip": "Potassium improves seedling strength"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "20 kg/acre",
+        "method": "Broadcast and irrigate",
+        "npk_tip": "Potassium strengthens corn stalk"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "25 kg/acre",
+        "method": "Broadcast before irrigation",
+        "npk_tip": "Potassium critical at tasseling stage"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "30 kg/acre",
+        "method": "Broadcast before irrigation",
+        "npk_tip": "Potassium is priority at silking stage"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "25 kg/acre",
+        "method": "Broadcast before irrigation",
+        "npk_tip": "Potassium improves corn grain quality"
+      },
+      {
+        "fertilizer": "None",
+        "dosage": "0 kg/acre",
+        "method": "Stop all fertilizer",
+        "npk_tip": "Corn is ready for harvest"
+      }
+    ],
+    "healthy": [
+      {
+        "fertilizer": "NPK 10:26:26",
+        "dosage": "30 kg/acre",
+        "method": "Basal application before sowing",
+        "npk_tip": "Balanced NPK needed at germination"
+      },
+      {
+        "fertilizer": "Urea + SSP",
+        "dosage": "15 + 20 kg/acre",
+        "method": "Side dressing near root zone",
+        "npk_tip": "Balanced nutrition at seedling stage"
+      },
+      {
+        "fertilizer": "Urea",
+        "dosage": "30 kg/acre",
+        "method": "Side dressing near root zone",
+        "npk_tip": "Nitrogen is priority at vegetative stage"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "20 kg/acre",
+        "method": "Broadcast before irrigation",
+        "npk_tip": "Focus on Potassium at tasseling"
+      },
+      {
+        "fertilizer": "DAP + MOP",
+        "dosage": "10 + 25 kg/acre",
+        "method": "Apply near root zone",
+        "npk_tip": "Focus on P and K at silking stage"
+      },
+      {
+        "fertilizer": "MOP",
+        "dosage": "20 kg/acre",
+        "method": "Broadcast before irrigation",
+        "npk_tip": "Potassium is priority at grain filling"
+      },
+      {
+        "fertilizer": "None",
+        "dosage": "0 kg/acre",
+        "method": "Stop all fertilizer",
+        "npk_tip": "Prepare for harvest now"
+      }
+    ]
+  }
+}
