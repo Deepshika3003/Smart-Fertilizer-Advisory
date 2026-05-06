@@ -121,7 +121,11 @@ def get_crops():
     return jsonify({
         "crops": ["rice"]
     })
-
+@app.route('/test')
+def test():
+    return jsonify({
+        "message": "Prediction API working"
+    })
 # ============================================
 # Run App
 # ============================================
