@@ -13,9 +13,7 @@ from recommendation import get_recommendation
 
 app = Flask(__name__)
 CORS(app)
-@app.route("/")
-def home():
-    return "Backend is running"
+
 
 # ============================================
 # Load Models
@@ -28,10 +26,10 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODELS_DIR = os.path.join(os.path.dirname(BASE_DIR), 'models')
 
 # Load Rice Model
-rice_model_path = os.path.join(MODELS_DIR, 'rice_model.h5')
-print("Loading Rice Model From:", rice_model_path)
-rice_model = tf.keras.models.load_model(rice_model_path)
-print("Rice model loaded! ✅")
+#rice_model_path = os.path.join(MODELS_DIR, 'rice_model.h5')
+#print("Loading Rice Model From:", rice_model_path)
+#rice_model = tf.keras.models.load_model(rice_model_path)
+#print("Rice model loaded! ✅")
 
 # Load Corn Model
 
@@ -48,13 +46,15 @@ def home():
     return jsonify({
         "message": "NPK Fertilizer Advisory System API",
         "status": "running",
-        "crops": ["rice", "corn"]
+        "crops": ["rice"]
     })
 
 # Predict endpoint
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
+        rice_model_path = os.path.join(MODELS_DIR, 'rice_model.h5')
+        rice_model = tf.keras.models.load_model(rice_model_path)
         # Get inputs
         crop = request.form.get('crop').lower()
         days = int(request.form.get('days'))
@@ -66,7 +66,7 @@ def predict():
                 "error": "Please provide crop, days and image"
             }), 400
 
-        if crop not in ['rice', 'corn']:
+        if crop not in ['rice']:
             return jsonify({
                 "error": "Crop must be rice or corn"
             }), 400
@@ -77,8 +77,7 @@ def predict():
         # Select correct model
         if crop == 'rice':
             model = rice_model
-        else:
-            model = corn_model
+        
 
         # Get prediction
         prediction = model.predict(img_array)
