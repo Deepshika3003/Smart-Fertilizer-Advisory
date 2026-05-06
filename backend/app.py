@@ -126,6 +126,9 @@ def test():
     return jsonify({
         "message": "Prediction API working"
     })
+@app.route("/")
+def home():
+    return "Smart Fertilizer Advisory Running Successfully!"
 # ============================================
 # Run App
 # ============================================
