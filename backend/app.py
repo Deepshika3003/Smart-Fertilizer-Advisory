@@ -53,8 +53,8 @@ def home():
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
-        rice_model_path = os.path.join(MODELS_DIR, 'rice_model.h5')
-        rice_model = tf.keras.models.load_model(rice_model_path)
+       # rice_model_path = os.path.join(MODELS_DIR, 'rice_model.h5')
+        #rice_model = tf.keras.models.load_model(rice_model_path)
         # Get inputs
         crop = request.form.get('crop').lower()
         days = int(request.form.get('days'))
@@ -68,8 +68,11 @@ def predict():
 
         if crop not in ['rice']:
             return jsonify({
-                "error": "Crop must be rice or corn"
+                "error": "Crop must be rice"
             }), 400
+        return jsonify({
+    "message": "API working"
+            })
 
         # Preprocess image
         img_array = preprocess_image(image)
